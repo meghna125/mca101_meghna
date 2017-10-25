@@ -40,6 +40,6 @@ def selsort(lst,i=0):
 
 
 
-lst=[5,7,3,8,9,2,1,0]
+lst=[5,7,3,8,9,2,9,0]
 print('Sorted list : ',selsort(lst))
 
