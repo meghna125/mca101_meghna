@@ -1,13 +1,11 @@
-
 def inc(num):
     '''
     objective : To increment the number
     input parameters :
            num : num to be incremented
-           
     '''
-    #approach : add one in the given number
     
+    #approach : add one in the given number
     return num +1
 
 
