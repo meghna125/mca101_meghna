@@ -9,7 +9,7 @@ def Find_min(lst,start,end,min_l):
      return value : index of minimum element
      '''
     #approach : compare list[min_l] with list[start_l],if greater swap the indexes
-    #           and call find_min function recursively
+    #            and call find_min function recursively
 
     if start==end:
         return min_l
@@ -25,8 +25,6 @@ def Find_min(lst,start,end,min_l):
 def Find_minimum(lst,start,end):
     
     return Find_min(lst,start,end,start)
-
-
 
 def main():
 
